@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัว</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>SuSHI</h1>
+    <nav>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#music">เพลงที่ชอบ</a>
+        <a href="#games">เกมที่ชอบ</a>
+        <a href="#contact">ติดต่อ</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about" class="card">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>สวัสดีผมชื่อนายภูวดล แจ้งเรือง กำลังศึกษาอยู่ที่มหาวิทยาลัยราชภัฏเพชรบุรี</p>
+
+        <h3>งานอดิเรก</h3>
+        <ul>
+            <li>ชอบเล่นกีตาร์</li>
+            <li>ชอบฟังเพลง</li>
+            <li>ชอบเล่นเกม</li>
+        </ul>
+        <a href="https://www.youtube.com/" target="_blank">ไป YouTube</a>
+    </section>
+
+    <section id="music" class="card">
+        <h2>เพลงที่ชอบ</h2>
+        <ol>
+            <li>Kryptonite - Pun</li>
+            <li>Day One - Pun</li>
+            <li>I Just Wanna Know - Pun</li>
+        </ol>
+        <img src="image/pun.jpg" alt="ปกเพลงของ PUN" width="300">
+    </section>
+
+    <section id="games" class="card">
+        <h2>เกมที่ชอบ</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>เกมที่ชอบ</th>
+                    <th>แนวเกม</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ROV</td>
+                    <td>MOBA</td>
+                </tr>
+                <tr>
+                    <td>FREE FIRE</td>
+                    <td>Battle Royale</td>
+                </tr>
+                <tr>
+                    <td>Roblox</td>
+                    <td>sandbox</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact" class="card"> 
+        <h2>ติดต่อ</h2>
+        <form>
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ">
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" placeholder="กรอกอีเมลของคุณ">
+            <label for="msg">ข้อความ:</label>
+            <textarea id="msg" name="msg" rows="4"></textarea>
+            <br>
+            <button type="submit">ส่ง</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>สร้างโดย ภูวดล แจ้งเรือง</p>
+</footer>
+</body>
+</html>
